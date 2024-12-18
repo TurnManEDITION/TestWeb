@@ -1,0 +1,84 @@
+li > a {
+    font-size: 1.35em;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 250ms;
+}
+ul > li > a:hover {
+    color: #d6d6d6;
+}
+ul > li {
+    border: 2px solid #383838;
+    transition: 250ms;
+}
+ul > li:hover {
+    background-color: #5e5e5e;
+}
+.logo {
+    width: 150px;
+    display: block;
+}
+.logo:hover {
+    box-shadow: #5e5e5e 0px 0px 0.6px;
+}
+.menu {
+    user-select: none;
+    position: fixed;
+}
+.menu > ul {
+    list-style-type: none;
+    padding-left: 0px;
+    border: 3.5px solid #383838;
+    left: 0px;
+}
+
+
+.content {
+    width: 1440px;
+    margin: 0 auto;
+}
+.card {
+    width: 220.5px;
+    height: 400px;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 32px;
+    display: inline-block;
+    margin: 6px;
+
+}
+img {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+}
+.photos {
+    width: 220.5px;
+    height: 220.5px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+}
+.description {
+    margin: 10px;
+}
+.title {
+    font-size: 1.25em;
+}
+.price > price1 {
+    font-size: 1.3em;
+    color: #ff9100;
+}
+.price > price2 {
+    font-size: 1.25em;
+    color: #fa0404;
+    text-decoration: line-through;
+}
+.price > sail {
+    font-size: 1.3em;
+    color: #fa0404;
+}
+.est {
+    font-weight: bolder;
+}

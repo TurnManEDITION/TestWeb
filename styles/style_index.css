@@ -1,0 +1,30 @@
+a {
+    color: #000000;
+}
+h1 {
+    margin: 0px;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+#webf {
+    border: 3px solid #3b3b3b;
+    font-size: 2em;
+    display: inline-block;
+    width: 920px;
+}
+.webf {
+    margin: 20px;
+    padding: 12px;
+    font-style: italic;
+}
+.anim {
+    transition: 250ms;
+    box-shadow: #000 -2px 2px 5px;
+}
+.anim:hover {
+    background-color: rgb(175, 175, 175);
+    color: #e1e1e1;
+    box-shadow: #000000 2px -2px 5px;
+}
